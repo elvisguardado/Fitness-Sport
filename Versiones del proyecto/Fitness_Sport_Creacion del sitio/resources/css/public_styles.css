@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+.icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+      font-size: inherit;
+  }
+  
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  .form-box{
+  height: 480px;
+  width: 380px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+  overflow: hidden;
+  }
+  
+  .button-box{
+    margin: 35px auto;
+    width: 245px;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+  }
+  
+  .toggle-btn{
+   padding:10px 32px ;
+   cursor: pointer;
+   background: transparent;
+   border: 0;
+   outline: none;
+   position: relative;
+  }
+  
+  #btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 130px;
+    height: 100%;
+    background: linear-gradient(to right, #5AD63E,#ffad06);
+    border-radius: 27px;
+    transition: .5s; 
+  }
+  
+  .input-group{
+    top: 80px;
+    position: absolute;
+    width: 210px;
+    transition: .5s;
+  }
+  
+  .input-group{
+    width: 75%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+  }
+  
+  .btn-small{
+    width: 75%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #5AD63E,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+  }
+  
+  .chech-box{
+    margin: 20px 15px 20px 0;
+  }
+  
+  span{
+    color: #777;
+    font-size: 12px;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  #login{
+    left: 50px;
+  }
+  
+  #register{
+    left: 450px;
+  }
+  
