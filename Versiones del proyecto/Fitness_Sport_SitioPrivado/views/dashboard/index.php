@@ -18,7 +18,7 @@ Dashboard_Page::headerTemplate('Clientes');
         </thead>
         <tbody>
             <tr>
-                <td>Alvin</td>
+                <td>Aavin</td>
                 <td>Eclair</td>
                 <td>$0.87</td>
             </tr>
